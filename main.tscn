@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://33r6p4svnjql"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_853hg"]
-[ext_resource type="Texture2D" uid="uid://dgru458v7ttut" path="res://background.jpg" id="2_pehig"]
+[ext_resource type="PackedScene" uid="uid://dl522fjhwvo4v" path="res://BG.tscn" id="2_gai8q"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_853hg")
@@ -24,10 +24,7 @@ text = "Quit"
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
 
-[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2(572, 311)
-scale = Vector2(0.249337, 0.249337)
-texture = ExtResource("2_pehig")
+[node name="ParallaxBackground" parent="ParallaxBackground/ParallaxLayer" instance=ExtResource("2_gai8q")]
 
 [connection signal="pressed" from="Button" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Button2" to="." method="_on_quit_pressed"]
