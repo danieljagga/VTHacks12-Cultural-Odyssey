@@ -25,7 +25,7 @@ text = "Quit"
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2(572, 311)
+position = Vector2(574, 311)
 scale = Vector2(0.249337, 0.249337)
 texture = ExtResource("2_pehig")
 
