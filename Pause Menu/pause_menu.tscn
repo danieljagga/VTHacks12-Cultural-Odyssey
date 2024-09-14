@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7tpgw6kpxl3b"]
+
+[ext_resource type="Script" path="res://Pause Menu/pause_menu.gd" id="1_kt1nh"]
+
+[node name="pause_menu" type="Node2D"]
+script = ExtResource("1_kt1nh")
+
+[node name="Change World" type="Button" parent="."]
+offset_left = 527.0
+offset_top = 317.0
+offset_right = 639.0
+offset_bottom = 356.0
+text = "Change World"
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 527.0
+offset_top = 374.0
+offset_right = 639.0
+offset_bottom = 413.0
+text = "Quit"
+
+[connection signal="pressed" from="Change World" to="." method="_on_change_world_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
