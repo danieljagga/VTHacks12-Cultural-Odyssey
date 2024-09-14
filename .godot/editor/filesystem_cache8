@@ -1,0 +1,8 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1726336365
+background.jpg::CompressedTexture2D::7616757290281811071::1726336349::1726336375::1::::<><>::
+icon.svg::CompressedTexture2D::4037137538492396481::1726334733::1726334958::1::::<><>::
+README.md::TextFile::-1::1726334756::0::1::::<><>::
+main.tscn::PackedScene::2024178580962664967::1726335566::0::1::::<><>::res://main.gd
+main.gd::GDScript::-1::1726335555::0::1::::<>Node2D<>::
+world.tscn::PackedScene::7881926949272715013::1726335566::0::1::::<><>::
