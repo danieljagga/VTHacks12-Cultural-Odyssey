@@ -1,11 +1,51 @@
 ~ start
 
-NPC1: Hi
-- Goodbye.
-- Hello.
-	NPC: Nice to meet you!
-	NPC: 212323
+João: Ola. My name is João.
+- Wow! This place is beautiful. Where am I?
+	João: You are in Brazil's Amazon rainforest!
+	- What makes Brazil so unique?
+		João: Many things! Chief among them being this very rainforest. 
+		The Amazon is called "The Lungs of the Earth" because of the large number of trees!
+		=> END
+	- Goodbye.
+		João: Adeus.
+		=> END
+- This place isn't like home. I hate it!
+	João: Embrace what is foreign to you, for ignorance is not a virtue.
 	=> END
-NPC1: Bye
+- Goodbye.
+	João: Adeus.
+	=> END
+	
+~ start1
 
+Ana: Parabéns! You've made it!
+Ana: Forgive me. My name is Ana.
+- Woahhh! What is that statue?
+	Ana: That is Christ the Redeemer. It was the idea of sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa, French engineer Albert Caquot, 
+		 and Romanian sculptor Gheorghe Leonida between 1922 and 1931.
+	Ana: He gives hope and blessings to the Brazilian people!
+	=> END
+- What's the quickest route to my house? It stinks here.
+	Ana: A house is not a home, mi amigo; it's the culture and people around you.
+	=> END
+Ana: I implore you to explore other cultures! Get a sense a of how ALL humans laugh, clebrate, grieve...It's one of the most intrinsically soul-enriching deeds you can do for yourself.
 => END
+
+~ start2
+
+Local: Ay! Wait until you see the view up ahead!
+- What view?
+	Local: A view that'll make you transcend this plane. Onward, mi amigo!
+	- Goodbye.
+		Local: Adeus.
+		=> END
+- It couldn't possibly be anything worth my time.
+	Local: You seem tense. Remember: the mind is a parachute; it won't work unless you open it. Boa sorte.
+	=> END
+- Goodbye.
+		Local: Adeus.
+		=> END
+		
+	
+	
