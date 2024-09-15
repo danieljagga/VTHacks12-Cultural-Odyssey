@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6ywcy2p4ajcu"
-path="res://.godot/imported/forest.png-22ed60a75c89de8a3ba733a448975fa7.ctex"
+path="res://.godot/imported/forest.png-42878f12e9345311ad9e778de09ef09e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sunny Land Collection Files/Assets/Environments/Tall Forest/Tall Forest Pack/Previews/forest.png"
-dest_files=["res://.godot/imported/forest.png-22ed60a75c89de8a3ba733a448975fa7.ctex"]
+source_file="res://Sunny Land Collection Files/Assets/Environments/Tall Forest/Tall Forest Pack/Layers/Previews/forest.png"
+dest_files=["res://.godot/imported/forest.png-42878f12e9345311ad9e778de09ef09e.ctex"]
 
 [params]
 

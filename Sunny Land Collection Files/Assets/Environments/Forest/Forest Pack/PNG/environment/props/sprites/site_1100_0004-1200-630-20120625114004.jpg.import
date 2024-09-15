@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://brrh82ihcfihj"
-path="res://.godot/imported/bg-trees.png-af4a9fba3abf6805ff97cd5baa93329c.ctex"
+uid="uid://cp2w857dg4low"
+path="res://.godot/imported/site_1100_0004-1200-630-20120625114004.jpg-abad52b94f59f44d385cb825496e4096.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sunny Land Collection Files/Assets/Packs/Woods Pack/ENVIRONMENT/Bacgkrounds/bg-trees.png"
-dest_files=["res://.godot/imported/bg-trees.png-af4a9fba3abf6805ff97cd5baa93329c.ctex"]
+source_file="res://Sunny Land Collection Files/Assets/Environments/Forest/Forest Pack/PNG/environment/props/sprites/site_1100_0004-1200-630-20120625114004.jpg"
+dest_files=["res://.godot/imported/site_1100_0004-1200-630-20120625114004.jpg-abad52b94f59f44d385cb825496e4096.ctex"]
 
 [params]
 
