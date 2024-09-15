@@ -6,6 +6,8 @@ const JUMP_VELOCITY = -400.0
 
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var npc_in_range = false
+var npc1_in_range = false
+var npc2_in_range = false
 
 @onready var anim = get_node("AnimationPlayer")
 
@@ -40,17 +42,39 @@ func _physics_process(delta: float) -> void:
 		anim.play("Fall")
 
 	move_and_slide()
+	#npc
 	if npc_in_range == true:
 		if Input.is_action_just_pressed("ui_focus_next"):
 			DialogueManager.show_example_dialogue_balloon(load("res://Dialogue/Dialogue test.dialogue"), "start")
 			return
+			
+	#npc1
+	if npc1_in_range == true:
+		if Input.is_action_just_pressed("ui_focus_next"):
+			DialogueManager.show_example_dialogue_balloon(load("res://Dialogue/Dialogue test.dialogue"), "start1")
+			return
 
+	#npc2
+	if npc2_in_range == true:
+		if Input.is_action_just_pressed("ui_focus_next"):
+			DialogueManager.show_example_dialogue_balloon(load("res://Dialogue/Dialogue test.dialogue"), "start2")
+			return
 #when nearing npc change value to true
-func _on_detection_area_body_entered(body) -> void:
+
+
+
+
+func _on_area_2d_body_entered(body) -> void:
 	if body.has_method("NPC"):
 		npc_in_range = true
-
-#when leaving npc change value to false
-func _on_detection_area_body_exited(body) -> void:
+	elif body.has_method("NPC1"):
+		npc1_in_range = true
+	elif body.has_method("NPC2"):
+		npc2_in_range = true
+func _on_area_2d_body_exited(body) -> void:
 	if body.has_method("NPC"):
 		npc_in_range = false
+	elif body.has_method("NPC1"):
+		npc1_in_range = false
+	elif body.has_method("NPC2"):
+		npc2_in_range = true
