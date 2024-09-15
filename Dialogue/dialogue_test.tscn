@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://dnrorxq86lcdf"]
+[gd_scene load_steps=12 format=3 uid="uid://dnrorxq86lcdf"]
 
 [ext_resource type="PackedScene" uid="uid://cgtnfic8dawes" path="res://Player/player.tscn" id="1_px62u"]
 [ext_resource type="Script" path="res://Dialogue/character_body_2d.gd" id="2_60msd"]
 [ext_resource type="Texture2D" uid="uid://d0vxj05o1s2s2" path="res://Dialogue/Untitled.png" id="3_4nqp6"]
+[ext_resource type="Script" path="res://Dialogue/animated_text.gd" id="4_2g3c7"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_f0avu"]
 radius = 21.3776
@@ -13,9 +14,50 @@ size = Vector2(141, 15)
 [sub_resource type="CircleShape2D" id="CircleShape2D_nvgc3"]
 radius = 35.3553
 
+[sub_resource type="Animation" id="Animation_mgdui"]
+resource_name = "show"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:visible_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.4, 0.7, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.27, 1.0]
+}
+
+[sub_resource type="Animation" id="Animation_qphxn"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:visible_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_tb6h5"]
+_data = {
+"RESET": SubResource("Animation_qphxn"),
+"show": SubResource("Animation_mgdui")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ymvjs"]
+size = Vector2(20, 122)
+
 [node name="DIalogueTest" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("1_px62u")]
+position = Vector2(23, 71)
+metadata/_edit_group_ = true
 
 [node name="detection area" type="Area2D" parent="Player"]
 
@@ -49,5 +91,31 @@ metadata/_edit_group_ = true
 position = Vector2(-88, 102)
 shape = SubResource("CircleShape2D_nvgc3")
 
+[node name="Animated text" type="Node2D" parent="."]
+script = ExtResource("4_2g3c7")
+
+[node name="Label" type="Label" parent="Animated text"]
+offset_left = -242.0
+offset_top = -26.0
+offset_right = -36.0
+offset_bottom = 23.0
+text = "Press tab when close to 
+an npc to talk to them"
+visible_characters = 0
+visible_characters_behavior = 1
+visible_ratio = 0.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Animated text"]
+libraries = {
+"": SubResource("AnimationLibrary_tb6h5")
+}
+
+[node name="Area2D" type="Area2D" parent="Animated text"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Animated text/Area2D"]
+position = Vector2(-37, 59)
+shape = SubResource("RectangleShape2D_ymvjs")
+
 [connection signal="body_entered" from="Player/detection area" to="Player" method="_on_detection_area_body_entered"]
 [connection signal="body_exited" from="Player/detection area" to="Player" method="_on_detection_area_body_exited"]
+[connection signal="body_entered" from="Animated text/Area2D" to="Animated text" method="_on_area_2d_body_entered"]
