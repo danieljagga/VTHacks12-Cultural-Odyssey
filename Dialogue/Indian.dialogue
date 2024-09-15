@@ -1,0 +1,44 @@
+~ ind1
+
+Aryan: Namaste, traveler! I’m Aryan. You’ve wandered deep into the jungles of India—you're lucky to have made it this far."
+- I need to get out. How do I leave the jungle?
+Aryan: The way out leads to the Taj Mahal, a symbol of love and beauty. But the path won’t be easy—you’ll need to respect the jungle and its creatures."
+- What do you mean?
+Aryan: Tigers roam these lands. In India, they are seen as protectors, not just predators. If you move with respect, they may help you cross dangerous areas.
+- Tigers will help me?
+Aryan: Yes. Walk with courage and calm. The jungle rewards those who respect its power. Follow the river and you’ll see the Taj Mahal in the distance—it’s your way out.
+
+=> END
+
+~ ind2
+
+Traveler: Hey there! I couldn’t help but notice we’re heading in the same direction. I’m Maya. Seems like we’re both on a journey to the Taj Mahal.
+- Yes, I’m trying to find my way out of this jungle. Any tips for getting there safely?
+Maya: I’ve been following the road, just like Aryan suggested. It’s a bit challenging, but it’s the most direct route. The jungle is beautiful, though—it has its own way of guiding you if you pay attention.
+- Do you know much about the dangers here?
+	Maya: I’ve heard about the tigers, too. They’re not to be taken lightly, but as Aryan mentioned, they respect those who show respect. I’ve been trying to stay calm and move quietly. It seems to be working so far.
+- Have you seen any tigers yet?
+Maya: Not yet, but I’ve seen signs of their presence. I keep my distance and stay alert. If you’re cautious and follow the river, you should be fine. We might even spot some together.
+- Thanks for the advice, Maya. It’s good to know I’m not alone in this.
+Maya: Absolutely! Let’s stick together. We’ll reach the Taj Mahal and get out of this jungle in no time.
+
+=> END
+
+~ ind3
+
+Guide: Welcome to the Taj Mahal! I’m Rohan, and I’m delighted to show you around this magnificent symbol of eternal love.
+- What can you tell me about the architectural features of the Taj Mahal?
+	Guide: The Taj Mahal is known for its stunning white marble dome, surrounded by gardens, reflecting pools, and minarets. The intricate carvings and the symmetry of the structure are remarkable examples of Mughal architecture
+- It’s even more breathtaking up close. Can you tell me more about its significance?
+Rohan: Absolutely. The Taj Mahal was built by the Mughal Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal. It’s not just a tomb but a grand expression of love and devotion. Construction began in 1632 and took about 22 years to complete.
+- It’s incredible. What’s the story behind its design?
+	Rohan: The design represents a blend of Persian, Islamic, and Indian architectural styles. The central dome is surrounded by lush gardens, reflecting pools, and four minarets. Every detail is meticulously crafted to symbolize the paradise described in the Quran.
+- I’ve heard it’s also known for its white marble. What’s special about that?
+Rohan: Yes, the Taj Mahal is renowned for its white marble, which was sourced from Rajasthan. The marble’s surface reflects different hues depending on the time of day and the angle of the sun, giving the mausoleum a mesmerizing quality.
+- It sounds like there’s so much history embedded in every stone.
+	Rohan: Indeed. The Taj Mahal isn’t just an architectural marvel; it’s a testament to the enduring power of love and a significant part of India’s cultural heritage. I hope you enjoy exploring it as much as I do sharing its story.
+- Thank you, Rohan. It’s been wonderful to learn more about this incredible place.
+Rohan: My pleasure! Feel free to ask if you have any more questions as you explore. Enjoy the beauty and history of the Taj Mahal.
+
+
+=> END
