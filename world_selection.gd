@@ -11,11 +11,11 @@ func _on_play_pressed() -> void:
 
 
 func _on_brazil_button_down() -> void:
-	get_tree().change_scene_to_file("res://France.tscn")
+	get_tree().change_scene_to_file("res://world.tscn")
 
 
 func _on_india_button_down() -> void:
-	get_tree().change_scene_to_file("res://France.tscn")
+	get_tree().change_scene_to_file("res://India/india.tscn")
 
 
 func _on_france_button_down() -> void:

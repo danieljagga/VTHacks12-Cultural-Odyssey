@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://53437eliucyl"]
 
 [ext_resource type="Script" path="res://world_selection.gd" id="1_p132a"]
-[ext_resource type="Texture2D" path="res://world_tileset.png" id="1_u1dyq"]
+[ext_resource type="Texture2D" uid="uid://d2j0uwjsvr1jc" path="res://world_tileset.png" id="1_u1dyq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gyrmg"]
 texture = ExtResource("1_u1dyq")
@@ -152,14 +152,14 @@ offset_right = 778.0
 offset_bottom = 168.0
 text = "Brasil"
 
-[node name="India" type="Button" parent="."]
+[node name="France" type="Button" parent="."]
 offset_left = 405.0
 offset_top = 535.0
 offset_right = 778.0
 offset_bottom = 601.0
 text = "France"
 
-[node name="France" type="Button" parent="."]
+[node name="India" type="Button" parent="."]
 offset_left = 405.0
 offset_top = 355.0
 offset_right = 778.0
@@ -167,5 +167,5 @@ offset_bottom = 421.0
 text = "India"
 
 [connection signal="button_down" from="Brazil" to="." method="_on_brazil_button_down"]
-[connection signal="button_down" from="India" to="." method="_on_india_button_down"]
 [connection signal="button_down" from="France" to="." method="_on_france_button_down"]
+[connection signal="button_down" from="India" to="." method="_on_india_button_down"]
