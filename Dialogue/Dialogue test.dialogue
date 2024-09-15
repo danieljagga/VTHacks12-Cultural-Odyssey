@@ -1,0 +1,10 @@
+~ start
+
+NPC1: Hi
+- Goodbye.
+- Hello.
+	NPC: Nice to meet you!
+	=> END
+NPC1: Bye
+
+=> END

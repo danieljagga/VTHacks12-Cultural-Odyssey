@@ -5,6 +5,7 @@ const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
 
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
+var npc_in_range = false
 
 @onready var anim = get_node("AnimationPlayer")
 
@@ -39,3 +40,17 @@ func _physics_process(delta: float) -> void:
 		anim.play("Fall")
 
 	move_and_slide()
+	if npc_in_range == true:
+		if Input.is_action_just_pressed("ui_focus_next"):
+			DialogueManager.show_example_dialogue_balloon(load("res://Dialogue/Dialogue test.dialogue"), "start")
+			return
+
+#when nearing npc change value to true
+func _on_detection_area_body_entered(body) -> void:
+	if body.has_method("NPC"):
+		npc_in_range = true
+
+#when leaving npc change value to false
+func _on_detection_area_body_exited(body) -> void:
+	if body.has_method("NPC"):
+		npc_in_range = false

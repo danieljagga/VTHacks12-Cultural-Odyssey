@@ -1,0 +1,53 @@
+[gd_scene load_steps=7 format=3 uid="uid://dnrorxq86lcdf"]
+
+[ext_resource type="PackedScene" uid="uid://cgtnfic8dawes" path="res://Player/player.tscn" id="1_px62u"]
+[ext_resource type="Script" path="res://Dialogue/character_body_2d.gd" id="2_60msd"]
+[ext_resource type="Texture2D" uid="uid://d0vxj05o1s2s2" path="res://Dialogue/Untitled.png" id="3_4nqp6"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_f0avu"]
+radius = 21.3776
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i2ma8"]
+size = Vector2(141, 15)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_nvgc3"]
+radius = 35.3553
+
+[node name="DIalogueTest" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_px62u")]
+
+[node name="detection area" type="Area2D" parent="Player"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/detection area"]
+position = Vector2(1, 28)
+shape = SubResource("CircleShape2D_f0avu")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(27, 131)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-60.5, -2.5)
+shape = SubResource("RectangleShape2D_i2ma8")
+
+[node name="Panel" type="Panel" parent="StaticBody2D/CollisionShape2D"]
+offset_left = -65.0
+offset_right = 71.0
+offset_bottom = 10.0
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("2_60msd")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(-86, 100)
+scale = Vector2(0.8, 0.645161)
+texture = ExtResource("3_4nqp6")
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(-88, 102)
+shape = SubResource("CircleShape2D_nvgc3")
+
+[connection signal="body_entered" from="Player/detection area" to="Player" method="_on_detection_area_body_entered"]
+[connection signal="body_exited" from="Player/detection area" to="Player" method="_on_detection_area_body_exited"]
