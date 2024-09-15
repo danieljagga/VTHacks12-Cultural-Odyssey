@@ -32,7 +32,7 @@ focus={
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://Dialogue/Dialogue test.dialogue")
+locale/translations_pot_files=PackedStringArray("res://Dialogue/Dialogue test.dialogue", "res://Dialogue/India.dialogue", "res://Dialogue/France.dialogue")
 
 [rendering]
 
