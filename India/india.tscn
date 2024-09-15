@@ -7,17 +7,17 @@
 size = Vector2(3166.37, 54.9943)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qdsv6"]
-size = Vector2(25.5504, 428.769)
+size = Vector2(15.8858, 350.691)
 
 [node name="India" type="Node"]
 
 [node name="Player" parent="." instance=ExtResource("1_uotny")]
-position = Vector2(136, 272)
+position = Vector2(300, 272)
 scale = Vector2(2.88, 2.88)
 
 [node name="ParallaxBackground" parent="." instance=ExtResource("1_3q5bs")]
 z_index = -50
-position = Vector2(2373, 32)
+position = Vector2(2476, 29)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(1158, 611)
@@ -25,10 +25,24 @@ scale = Vector2(3.21536, 1.5113)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(1226.93, -32.4224)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_au77r")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(-362.97, -170.052)
+position = Vector2(-362.97, -181.301)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_qdsv6")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1881.28, -23.8205)
+scale = Vector2(0.999999, 1)
+shape = SubResource("RectangleShape2D_qdsv6")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1933.84, -76.0934)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_qdsv6")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1954.68, -188.579)
 scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_qdsv6")

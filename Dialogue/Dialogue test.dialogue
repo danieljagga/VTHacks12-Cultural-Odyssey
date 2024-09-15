@@ -4,6 +4,7 @@ NPC1: Hi
 - Goodbye.
 - Hello.
 	NPC: Nice to meet you!
+	NPC: 212323
 	=> END
 NPC1: Bye
 

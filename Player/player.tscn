@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://cgtnfic8dawes"]
+[gd_scene load_steps=26 format=3 uid="uid://cgtnfic8dawes"]
 
 [ext_resource type="Texture2D" uid="uid://dp02avb7woaqk" path="res://Player/animations/idle/player-idle-1.png" id="1_0ryyj"]
 [ext_resource type="Texture2D" uid="uid://c008yf2aa4lq7" path="res://Player/animations/climb/player-climb-1.png" id="1_73r4u"]
@@ -236,6 +236,9 @@ _data = {
 "Run": SubResource("Animation_b5qr4")
 }
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_p0sdh"]
+radius = 20.2237
+
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_uolv4")
 
@@ -258,3 +261,9 @@ libraries = {
 "": SubResource("AnimationLibrary_nk48v")
 }
 autoplay = "Idle"
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, 26)
+shape = SubResource("CircleShape2D_p0sdh")
