@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_12"
+type="Resource"
+uid="uid://df1wt5c6e3mtn"
+path="res://.godot/imported/Indian.dialogue-3e191be3294f6f92fdd86df613b732aa.tres"
+
+[deps]
+
+source_file="res://Dialogue/Indian.dialogue"
+dest_files=["res://.godot/imported/Indian.dialogue-3e191be3294f6f92fdd86df613b732aa.tres"]
+
+[params]
+
+defaults=true

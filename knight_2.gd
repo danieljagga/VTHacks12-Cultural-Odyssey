@@ -1,5 +1,6 @@
 extends CharacterBody2D
 
 
-func fra2():
+
+func fra1():
 	pass

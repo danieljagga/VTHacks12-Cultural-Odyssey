@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_12"
+type="Resource"
+uid="uid://bahmqntow4g62"
+path="res://.godot/imported/France.dialogue-6636a6390183397b97d7831e1be70de6.tres"
+
+[deps]
+
+source_file="res://Dialogue/France.dialogue"
+dest_files=["res://.godot/imported/France.dialogue-6636a6390183397b97d7831e1be70de6.tres"]
+
+[params]
+
+defaults=true
