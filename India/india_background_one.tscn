@@ -1,0 +1,699 @@
+[gd_scene load_steps=5 format=3 uid="uid://dj0372qnpfp7h"]
+
+[ext_resource type="Texture2D" uid="uid://48wdlq2fwvme" path="res://Jungle/Layers/back.png" id="1_shigm"]
+[ext_resource type="Texture2D" uid="uid://1eemo6oiexep" path="res://Jungle/Layers/middle-a.png" id="2_w1yrf"]
+[ext_resource type="Texture2D" uid="uid://dtcqip0va1hlq" path="res://Jungle/Layers/middle-b.png" id="3_68cyp"]
+[ext_resource type="Texture2D" uid="uid://cbiobsn3kbg6k" path="res://Jungle/Layers/tileset.png" id="4_hlrlo"]
+
+[node name="ParallaxBackground" type="Node2D"]
+metadata/_edit_vertical_guides_ = [5287.0]
+
+[node name="ParallaxLayer" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.5, 0)
+scroll_offset = Vector2(-2820, 6)
+
+[node name="Back" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(3717, 319.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back2" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(4019, 317.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back3" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(4321, 317.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back4" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(4622, 317.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back5" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(4924, 317.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back6" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(5226, 317.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back7" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(5529, 317.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back8" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(5824, 330.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back9" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(6126, 328.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back10" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(6428, 328.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back11" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(6729, 328.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back12" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(7031, 328.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back13" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(7333, 328.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back14" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(7636, 328.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back15" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(7948, 330.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back16" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(8250, 328.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back17" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(8552, 328.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back18" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(8853, 328.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back19" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(9155, 328.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back20" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(9457, 328.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="Back21" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(9760, 328.584)
+scale = Vector2(2.70487, 2.70487)
+texture = ExtResource("1_shigm")
+offset = Vector2(-1279, 0)
+
+[node name="ParallaxLayer2" type="Parallax2D" parent="."]
+scroll_scale = Vector2(2, 2)
+scroll_offset = Vector2(-2824, 6)
+
+[node name="Middle-a" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1550, 347)
+scale = Vector2(2.23431, 2.83283)
+texture = ExtResource("2_w1yrf")
+
+[node name="Middle-a2" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(2300.36, 346.834)
+scale = Vector2(2.23431, 2.83283)
+texture = ExtResource("2_w1yrf")
+
+[node name="Middle-a8" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(800.364, 346.94)
+scale = Vector2(2.23431, 2.83283)
+texture = ExtResource("2_w1yrf")
+
+[node name="Middle-a3" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(3049.73, 346.774)
+scale = Vector2(2.23431, 2.83283)
+texture = ExtResource("2_w1yrf")
+
+[node name="Middle-a4" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(3799.73, 346.774)
+scale = Vector2(2.23431, 2.83283)
+texture = ExtResource("2_w1yrf")
+
+[node name="Middle-a5" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(4549.73, 346.774)
+scale = Vector2(2.23431, 2.83283)
+texture = ExtResource("2_w1yrf")
+
+[node name="Middle-a6" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(5299.73, 346.774)
+scale = Vector2(2.23431, 2.83283)
+texture = ExtResource("2_w1yrf")
+
+[node name="Middle-b" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(6061, 346.387)
+scale = Vector2(2.67656, 2.83656)
+texture = ExtResource("3_68cyp")
+
+[node name="ParallaxLayer3" type="Parallax2D" parent="."]
+scroll_scale = Vector2(2, 2)
+scroll_offset = Vector2(3003, -7)
+
+[node name="Tileset" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-5374, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset2" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-5326, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset3" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-5278, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset4" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-5230, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset5" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-5182, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset6" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-5134, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset7" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-5086, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset8" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-5038, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset9" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4990, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset10" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4942, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset11" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4894, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset12" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4846, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset13" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4798, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset14" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4750, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset15" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4702, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset16" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4654, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset17" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4606, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset18" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4558, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset19" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4510, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset20" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4462, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset21" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4414, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset22" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4366, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset23" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4318, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset24" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4270, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset25" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4222, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset26" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4174, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset27" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4126, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset28" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4078, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset29" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-4030, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset30" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3982, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset31" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3934, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset32" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3886, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset33" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3838, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset34" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3790, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset35" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3742, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset36" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3694, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset37" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3646, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset38" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3598, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset39" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3550, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset40" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3502, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset41" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3454, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset42" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3406, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset43" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3358, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset44" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3310, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset45" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3262, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset46" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3214, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset47" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3166, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset48" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3118, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset49" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3070, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset50" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-3022, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset51" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2974, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset52" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2926, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset53" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2878, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset54" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2830, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset55" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2782, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset56" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2734, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset57" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2686, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset58" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2638, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset59" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2590, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset60" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2542, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset61" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2494, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset62" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2446, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset63" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2398, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset64" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2350, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset65" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2302, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset66" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2254, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset67" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2206, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset68" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2158, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset69" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2110, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset70" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2062, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset71" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-2014, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset72" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1966, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset73" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1918, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset74" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1870, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset75" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1822, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset76" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1774, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset77" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1726, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset78" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1678, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset79" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1630, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset80" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1582, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset81" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1534, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset82" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1486, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset83" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1438, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset84" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1390, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset85" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1342, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset86" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1294, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset87" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1246, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset88" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1198, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset89" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1150, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset90" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1102, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset91" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1054, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset92" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-1006, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset93" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-958, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset94" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-910, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset95" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-862, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset96" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-814, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset97" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-766, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset98" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-718, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset99" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-670, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset100" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-622, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset101" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-574, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset102" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-526, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset103" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-478, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset104" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-430, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset105" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-382, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset106" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-334, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset107" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-286, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset108" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-238, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset109" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-190, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset110" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-142, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset111" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-94, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset112" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-46, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset113" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(2, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset114" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(50, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset115" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(98, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset116" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(146, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset117" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(194, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset118" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(242, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset119" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(290, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset120" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(338, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset121" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(386, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset122" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(434, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset123" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(482, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset124" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(530, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset125" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(578, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset126" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(626, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset127" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(674, 616)
+texture = ExtResource("4_hlrlo")
+
+[node name="Tileset128" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(722, 616)
+texture = ExtResource("4_hlrlo")
