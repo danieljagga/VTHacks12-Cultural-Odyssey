@@ -1,13 +1,17 @@
+
 [gd_scene load_steps=15 format=3 uid="uid://c7ebc6xadgw25"]
+
 
 [ext_resource type="Texture2D" uid="uid://bkb0p4peprtc2" path="res://eiffel tower.webp" id="1_avbkm"]
 [ext_resource type="Script" path="res://france.gd" id="1_ep8x8"]
 [ext_resource type="PackedScene" uid="uid://cgtnfic8dawes" path="res://Player/player.tscn" id="2_ccli5"]
 [ext_resource type="Texture2D" uid="uid://d2j0uwjsvr1jc" path="res://world_tileset.png" id="3_gh5xp"]
+
 [ext_resource type="Texture2D" uid="uid://bilhcsty14jpn" path="res://player2-idle-1.png" id="5_kiibd"]
 [ext_resource type="Script" path="res://character_body_2d.gd" id="7_8vui3"]
 [ext_resource type="Texture2D" uid="uid://ctshhyievjfvj" path="res://knight-removebg-preview.png" id="9_jvfte"]
 [ext_resource type="Script" path="res://knight_2.gd" id="9_q02j8"]
+
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_j7gw7"]
 size = Vector2(1790, 82.5)
@@ -191,8 +195,11 @@ sources/0 = SubResource("TileSetAtlasSource_ou0iv")
 [sub_resource type="CircleShape2D" id="CircleShape2D_wun4p"]
 radius = 23.7697
 
+
 [sub_resource type="CircleShape2D" id="CircleShape2D_wpwgk"]
 radius = 15.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_upy1i"]
 
 [node name="France" type="Node2D"]
 script = ExtResource("1_ep8x8")
@@ -233,6 +240,13 @@ position = Vector2(-8.22857, 5.5)
 scale = Vector2(1.45714, 1.30556)
 texture = ExtResource("9_jvfte")
 flip_h = true
+script = ExtResource("5_i1bnc")
+
+[node name="Area2D" type="Area2D" parent="Knight"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Knight/Area2D"]
+shape = SubResource("CircleShape2D_t56xa")
+
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Knight2"]
 shape = SubResource("CircleShape2D_wun4p")
