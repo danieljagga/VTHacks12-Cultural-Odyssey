@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://dj0372qnpfp7h"]
+[gd_scene load_steps=18 format=3 uid="uid://dj0372qnpfp7h"]
 
 [ext_resource type="Texture2D" uid="uid://48wdlq2fwvme" path="res://Jungle/Layers/back.png" id="1_shigm"]
 [ext_resource type="Texture2D" uid="uid://1eemo6oiexep" path="res://Jungle/Layers/middle-a.png" id="2_w1yrf"]
@@ -7,8 +7,11 @@
 [ext_resource type="Texture2D" uid="uid://pt3n5yrvdrvf" path="res://India/Guide-to-the-Taj-Mahal-removebg-preview.png" id="5_yw3c4"]
 [ext_resource type="Texture2D" uid="uid://dmtws0sxqx124" path="res://India/tiger-removebg-preview.png" id="6_7whoy"]
 [ext_resource type="Texture2D" uid="uid://bt860uixkrw8j" path="res://India/character_maleAdventurer_duck.png" id="7_3xqwf"]
+[ext_resource type="Script" path="res://India/character_body_2d.gd" id="7_td3ql"]
 [ext_resource type="Texture2D" uid="uid://dw1876udgdva5" path="res://India/character_femalePerson_show.png" id="8_jobg1"]
+[ext_resource type="Script" path="res://India/character_body_2d_2.gd" id="9_bmcsc"]
 [ext_resource type="Texture2D" uid="uid://ux6uyj1qki8e" path="res://India/character_malePerson_cheer1.png" id="9_n0bis"]
+[ext_resource type="Script" path="res://India/character_body_2d_3.gd" id="11_kyg77"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_og5d8"]
 size = Vector2(154.5, 80)
@@ -1679,6 +1682,7 @@ shape = SubResource("RectangleShape2D_5kqn8")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="ParallaxLayer3"]
 position = Vector2(-4261, 543)
+script = ExtResource("7_td3ql")
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer3/CharacterBody2D"]
@@ -1691,6 +1695,7 @@ shape = SubResource("CircleShape2D_tbmp3")
 
 [node name="CharacterBody2D2" type="CharacterBody2D" parent="ParallaxLayer3"]
 position = Vector2(-55, 557)
+script = ExtResource("9_bmcsc")
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer3/CharacterBody2D2"]
 position = Vector2(1, -25)
@@ -1701,6 +1706,7 @@ shape = SubResource("CircleShape2D_5t4aq")
 
 [node name="CharacterBody2D3" type="CharacterBody2D" parent="ParallaxLayer3"]
 position = Vector2(1602, 519)
+script = ExtResource("11_kyg77")
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer3/CharacterBody2D3"]
 texture = ExtResource("9_n0bis")

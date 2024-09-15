@@ -1,13 +1,15 @@
-[gd_scene load_steps=19 format=3 uid="uid://c7ebc6xadgw25"]
+[gd_scene load_steps=23 format=3 uid="uid://c7ebc6xadgw25"]
 
 [ext_resource type="Texture2D" uid="uid://bkb0p4peprtc2" path="res://eiffel tower.webp" id="1_avbkm"]
 [ext_resource type="PackedScene" uid="uid://cgtnfic8dawes" path="res://Player/player.tscn" id="2_ccli5"]
 [ext_resource type="Texture2D" uid="uid://d2j0uwjsvr1jc" path="res://world_tileset.png" id="3_gh5xp"]
 [ext_resource type="Texture2D" uid="uid://cd1p44xexf5ky" path="res://knight.png" id="4_uyu5o"]
+[ext_resource type="Script" path="res://knight.gd" id="5_i1bnc"]
 [ext_resource type="Texture2D" uid="uid://bilhcsty14jpn" path="res://player2-idle-1.png" id="5_kiibd"]
 [ext_resource type="Texture2D" uid="uid://0v83rhfafghr" path="res://player2-idle-2.png" id="6_vlhsv"]
 [ext_resource type="Texture2D" uid="uid://b81o0yyhqqxxh" path="res://player2-idle-3.png" id="7_uifan"]
 [ext_resource type="Texture2D" uid="uid://dtdpf4p66agfb" path="res://player2-idle-4.png" id="8_cp6lk"]
+[ext_resource type="Script" path="res://fox_2.gd" id="10_4g5ye"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_j7gw7"]
 size = Vector2(1790, 82.5)
@@ -224,6 +226,9 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_t56xa"]
+radius = 14.2417
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_74c8r"]
 animations = [{
 "frames": [{
@@ -243,6 +248,8 @@ animations = [{
 "name": &"default",
 "speed": 5.0
 }]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_upy1i"]
 
 [node name="France" type="Node2D"]
 
@@ -277,8 +284,20 @@ position = Vector2(-135, 819)
 scale = Vector2(1.89063, 1.89063)
 sprite_frames = SubResource("SpriteFrames_aw3a2")
 flip_h = true
+script = ExtResource("5_i1bnc")
+
+[node name="Area2D" type="Area2D" parent="Knight"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Knight/Area2D"]
+shape = SubResource("CircleShape2D_t56xa")
 
 [node name="Fox2" type="AnimatedSprite2D" parent="."]
 position = Vector2(607, -47)
 sprite_frames = SubResource("SpriteFrames_74c8r")
 frame_progress = 0.517754
+script = ExtResource("10_4g5ye")
+
+[node name="Area2D" type="Area2D" parent="Fox2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fox2/Area2D"]
+shape = SubResource("CircleShape2D_upy1i")
